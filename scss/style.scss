@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, html {
+  overflow-y: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #212121;
+  font-family: 'Montserrat', sans-serif;
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+  }
+  
+  .kb-avatar {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.kb-linkedin {
+  margin-top: 1em;
+  height: 26px;
+  width: 26px;
+}
