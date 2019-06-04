@@ -18,11 +18,17 @@ body {
   align-items: center;
   flex-direction: column;
   background: #212121;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Baloo Da', cursive;
 }
 body h1 {
   font-size: 1.5rem;
   margin-bottom: 0.5em;
+  background: #0077B5;
+  padding: 0 0.1em;
+  font-weight: 500;
+  border-radius: 2px;
+  height: 1.1em;
+  line-height: 1.2em;
 }
 body .kb-avatar {
   width: 200px;
